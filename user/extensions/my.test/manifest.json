@@ -1,0 +1,12 @@
+{
+    "description": "",
+    "displayName": "Test",
+    "extensionManager": "my.test/js/EmptyTemplate",
+    "id": "my.test",
+    "image": "",
+    "package": "my.test",
+    "runtime": {
+        "resources": []
+    },
+    "type": "uicomponent"
+}

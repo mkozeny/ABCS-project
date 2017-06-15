@@ -1,0 +1,44 @@
+{
+  "en" : {
+    "application" : {
+      "copyright" : {
+        "value" : "Copyright (c) 2016, 2017, Company and/or its affiliates. All rights reserved."
+      },
+      "title" : {
+        "value" : "Test app"
+      }
+    },
+    "main-menu" : {
+      "homePage" : "Home"
+    },
+    "pages" : {
+      "homePage" : {
+        "button--1007320878" : {
+          "displayName" : "Button"
+        },
+        "button--117304193" : {
+          "displayName" : "Button"
+        },
+        "button--1373815279" : {
+          "displayName" : "Button"
+        },
+        "button--91135449" : {
+          "displayName" : "Button"
+        },
+        "button-1365100503" : {
+          "displayName" : "Button"
+        },
+        "button-1419014926" : {
+          "displayName" : "Button"
+        },
+        "button-1424380981" : {
+          "displayName" : "Button"
+        },
+        "displayName" : "Home",
+        "title-1389397939" : {
+          "value" : "Home"
+        }
+      }
+    }
+  }
+}

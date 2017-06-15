@@ -1,0 +1,76 @@
+{
+  "descriptors" : {
+    "HCM" : {
+      "hcm2" : {
+        "descriptorUri" : "hcmWorkforceMgmtApi/resources",
+        "name" : "HCM Work Force Mgmt API",
+        "storageLocation" : "system/services/hcmWorkforceMgmtApi"
+      },
+      "hcm" : {
+        "descriptorUri" : "hcmCoreApi/resources",
+        "name" : "HCM Core API",
+        "storageLocation" : "system/services/hcmCoreApi"
+      },
+      "hcm1" : {
+        "descriptorUri" : "hcmCoreSetupApi/resources",
+        "name" : "HCM Core Setup API",
+        "storageLocation" : "system/services/hcmCoreSetupApi"
+      }
+    },
+    "CRM" : {
+      "sales" : {
+        "descriptorUri" : "salesApi/resources",
+        "name" : "CRM Sales API",
+        "storageLocation" : "system/services/salesApi",
+        "services" : [ "activities", "competitors", "leads", "opportunities", "partners", "programEnrollments", "sourcecodes", "territoryForecasts" ]
+      },
+      "crm" : {
+        "descriptorUri" : "crmCommonApi/resources",
+        "name" : "CRM Common API",
+        "storageLocation" : "system/services/crmCommonApi",
+        "services" : [ "accounts", "contacts", "households", "resources", "salesOrders" ]
+      }
+    },
+    "SR" : {
+      "sr" : {
+        "descriptorUri" : "crmRestApi/resources",
+        "name" : "Services API",
+        "storageLocation" : "system/services/servicesApi"
+      }
+    }
+  },
+  "baseURL" : {
+    "HCM" : "https://fuscdrmovm25-hcm-ext.us.oracle.com",
+    "CRM_OPP" : "https://p1crm92paassaas1.crm.dc1.c9dev1.oraclecorp.com",
+    "CRM_ACC" : "https://p1crm92paassaas1.crm.dc1.c9dev1.oraclecorp.com",
+    "CRM1" : "http://slc09kgb.us.oracle.com:2222",
+    "SR" : "https://fuscdrmsmc84-fa-ext.us.oracle.com",
+    "CRM" : "https://spool2env2.crm.dc1.c9dev2.oraclecorp.com"
+  },
+  "authentication" : {
+    "HCM" : {
+      "credentials" : "hcm_services",
+      "type" : "basic"
+    },
+    "CRM_OPP" : {
+      "credentials" : "oracle_crm_f",
+      "type" : "basic"
+    },
+    "CRM_ACC" : {
+      "credentials" : "oracle_crm_f",
+      "type" : "basic"
+    },
+    "CRM1" : {
+      "credentials" : "oracle_services",
+      "type" : "basic"
+    },
+    "CRM" : {
+      "credentials" : "oracle_crm",
+      "type" : "basic"
+    },
+    "SR" : {
+      "credentials" : "oracle_services_api",
+      "type" : "basic"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "buildVersion" : "17.2-SNAPSHOT",
+  "buildMode" : "dev",
+  "demoMode" : "false",
+  "buildNumber" : "93666a75e176bcf72f6bb0c6d7d2871f74501a19",
+  "buildTime" : "2017-05-10 07:27:15",
+  "buildTimestamp" : "1494401242605",
+  "dtAssetsDir" : "assets_93666a75e176bcf72f6bb0c6d7d2871f74501a19",
+  "buildNotOptimized" : true
+}

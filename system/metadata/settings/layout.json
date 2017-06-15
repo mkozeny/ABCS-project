@@ -1,0 +1,63 @@
+{
+  "elements" : [ {
+    "binding" : { },
+    "displayName" : "label",
+    "id" : "abcs-tpl-app-title",
+    "properties" : {
+      "__silentProperties" : {
+        "translatableKeys" : [ "value" ],
+        "translatableRoot" : "application.title"
+      },
+      "designerIsDraggable" : true,
+      "designerIsHorizontallyResizable" : true,
+      "designerIsWrappable" : true,
+      "layoutComponentName" : "name",
+      "value" : "i18n:application.title.value"
+    },
+    "type" : "label"
+  }, {
+    "binding" : { },
+    "displayName" : "label",
+    "id" : "abcs-tpl-app-copyright",
+    "properties" : {
+      "__silentProperties" : {
+        "translatableKeys" : [ "value" ],
+        "translatableRoot" : "application.copyright"
+      },
+      "designerIsDraggable" : true,
+      "designerIsHorizontallyResizable" : true,
+      "designerIsWrappable" : true,
+      "layoutComponentName" : "copyright",
+      "value" : "i18n:application.copyright.value"
+    },
+    "type" : "label"
+  }, {
+    "id" : "abcs-tpl-app-user-area",
+    "properties" : {
+      "layoutComponentDisabled" : true
+    },
+    "type" : "user-area"
+  }, {
+    "id" : "abcs-tpl-app-language-switcher",
+    "properties" : {
+      "layoutComponentDisabled" : false
+    },
+    "type" : "language-switcher"
+  }, {
+    "id" : "abcs-tpl-app-logo",
+    "properties" : {
+      "__silentProperties" : {
+        "translatableKeys" : [ "altText" ],
+        "translatableRoot" : "application.logo"
+      },
+      "altText" : "i18n:layoutDt.logoAltText",
+      "imageCategory" : 3,
+      "imagePath" : "user/resources/images/logo-placeholder.png"
+    },
+    "type" : "image"
+  } ],
+  "setup" : {
+    "name" : "alta",
+    "type" : "internal"
+  }
+}

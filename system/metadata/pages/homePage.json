@@ -1,0 +1,374 @@
+{
+  "displayName" : "i18n:pages.homePage.displayName",
+  "id" : "homePage",
+  "isModalPage" : false,
+  "type" : "landing",
+  "view" : {
+    "binding" : { },
+    "children" : [ {
+      "binding" : { },
+      "children" : [ {
+        "binding" : { },
+        "displayName" : "Title",
+        "id" : "title-1389397939",
+        "properties" : {
+          "__silentProperties" : {
+            "translatableKeys" : [ "value" ],
+            "translatableRoot" : "pages.homePage.title-1389397939"
+          },
+          "appendDataValue" : false,
+          "bindEntityId" : "",
+          "bindPropertyId" : "",
+          "bottomBorder" : false,
+          "customizable" : false,
+          "designerIsDraggable" : true,
+          "designerIsHorizontallyResizable" : true,
+          "designerIsWrappable" : false,
+          "designerMinWidth" : 12,
+          "level" : 1,
+          "value" : "i18n:pages.homePage.title-1389397939.value"
+        },
+        "type" : "title"
+      }, {
+        "binding" : { },
+        "displayName" : "Button Toolbar",
+        "id" : "button-toolbar-1247258860",
+        "properties" : {
+          "__silentProperties" : {
+            "translatableRoot" : "no-i18n-keys"
+          },
+          "designerIsDraggable" : true,
+          "designerIsDroppable" : true,
+          "designerIsHorizontallyResizable" : true,
+          "designerIsWrappable" : false
+        },
+        "type" : "button-toolbar"
+      } ],
+      "displayName" : "Page Header",
+      "id" : "page-header-1206959175",
+      "properties" : {
+        "__silentProperties" : {
+          "translatableRoot" : "pages.homePage.page-header-1206959175"
+        },
+        "designerIsDraggable" : true,
+        "designerIsHorizontallyResizable" : true,
+        "designerIsWrappable" : true
+      },
+      "type" : "page-header"
+    }, {
+      "binding" : { },
+      "displayName" : "Button",
+      "id" : "button--91135449",
+      "properties" : {
+        "__silentProperties" : {
+          "translatableKeys" : [ "buttonTitle", "displayName" ],
+          "translatableRoot" : "pages.homePage.button--91135449"
+        },
+        "buttonChroming" : "regular",
+        "buttonIconic" : "text",
+        "buttonTitle" : "i18n:EMPTY_STRING",
+        "designerIsDraggable" : true,
+        "designerIsHorizontallyResizable" : true,
+        "designerIsWrappable" : true,
+        "designerMinWidth" : 1,
+        "designerRerenderParent" : false,
+        "displayName" : "i18n:pages.homePage.button--91135449.displayName",
+        "events" : {
+          "click" : "Button_button_91135449click"
+        }
+      },
+      "type" : "button"
+    }, {
+      "binding" : { },
+      "displayName" : "Button",
+      "id" : "button-1419014926",
+      "properties" : {
+        "__silentProperties" : {
+          "translatableKeys" : [ "buttonTitle", "displayName" ],
+          "translatableRoot" : "pages.homePage.button-1419014926"
+        },
+        "buttonChroming" : "regular",
+        "buttonIconic" : "text",
+        "buttonTitle" : "i18n:EMPTY_STRING",
+        "designerIsDraggable" : true,
+        "designerIsHorizontallyResizable" : true,
+        "designerIsWrappable" : true,
+        "designerMinWidth" : 1,
+        "designerRerenderParent" : false,
+        "displayName" : "i18n:pages.homePage.button-1419014926.displayName",
+        "events" : {
+          "click" : "Button_button_1419014926click"
+        }
+      },
+      "type" : "button"
+    }, {
+      "binding" : { },
+      "displayName" : "Button",
+      "id" : "button-1365100503",
+      "properties" : {
+        "__silentProperties" : {
+          "translatableKeys" : [ "buttonTitle", "displayName" ],
+          "translatableRoot" : "pages.homePage.button-1365100503"
+        },
+        "buttonChroming" : "regular",
+        "buttonIconic" : "text",
+        "buttonTitle" : "i18n:EMPTY_STRING",
+        "designerIsDraggable" : true,
+        "designerIsHorizontallyResizable" : true,
+        "designerIsWrappable" : true,
+        "designerMinWidth" : 1,
+        "designerRerenderParent" : false,
+        "displayName" : "i18n:pages.homePage.button-1365100503.displayName",
+        "events" : {
+          "click" : "Button_button_1365100503click"
+        }
+      },
+      "type" : "button"
+    }, {
+      "binding" : { },
+      "displayName" : "Button",
+      "id" : "button--1373815279",
+      "properties" : {
+        "__silentProperties" : {
+          "translatableKeys" : [ "buttonTitle", "displayName" ],
+          "translatableRoot" : "pages.homePage.button--1373815279"
+        },
+        "buttonChroming" : "regular",
+        "buttonIconic" : "text",
+        "buttonTitle" : "i18n:EMPTY_STRING",
+        "designerIsDraggable" : true,
+        "designerIsHorizontallyResizable" : true,
+        "designerIsWrappable" : true,
+        "designerMinWidth" : 1,
+        "designerRerenderParent" : false,
+        "displayName" : "i18n:pages.homePage.button--1373815279.displayName",
+        "events" : {
+          "click" : "Button_button_1373815279click"
+        }
+      },
+      "type" : "button"
+    }, {
+      "binding" : { },
+      "displayName" : "Button",
+      "id" : "button--1007320878",
+      "properties" : {
+        "__silentProperties" : {
+          "translatableKeys" : [ "buttonTitle", "displayName" ],
+          "translatableRoot" : "pages.homePage.button--1007320878"
+        },
+        "buttonChroming" : "regular",
+        "buttonIconic" : "text",
+        "buttonTitle" : "i18n:EMPTY_STRING",
+        "designerIsDraggable" : true,
+        "designerIsHorizontallyResizable" : true,
+        "designerIsWrappable" : true,
+        "designerMinWidth" : 1,
+        "designerRerenderParent" : false,
+        "displayName" : "i18n:pages.homePage.button--1007320878.displayName",
+        "events" : {
+          "click" : "Button_button_1007320878click"
+        }
+      },
+      "type" : "button"
+    }, {
+      "binding" : { },
+      "displayName" : "Button",
+      "id" : "button-1424380981",
+      "properties" : {
+        "__silentProperties" : {
+          "translatableKeys" : [ "buttonTitle", "displayName" ],
+          "translatableRoot" : "pages.homePage.button-1424380981"
+        },
+        "buttonChroming" : "regular",
+        "buttonIconic" : "text",
+        "buttonTitle" : "i18n:EMPTY_STRING",
+        "designerIsDraggable" : true,
+        "designerIsHorizontallyResizable" : true,
+        "designerIsWrappable" : true,
+        "designerMinWidth" : 1,
+        "designerRerenderParent" : false,
+        "displayName" : "i18n:pages.homePage.button-1424380981.displayName",
+        "events" : {
+          "click" : "Button_button_1424380981click"
+        }
+      },
+      "type" : "button"
+    }, {
+      "binding" : { },
+      "displayName" : "Button",
+      "id" : "button--117304193",
+      "properties" : {
+        "__silentProperties" : {
+          "translatableKeys" : [ "buttonTitle", "displayName" ],
+          "translatableRoot" : "pages.homePage.button--117304193"
+        },
+        "buttonChroming" : "regular",
+        "buttonIconic" : "text",
+        "buttonTitle" : "i18n:EMPTY_STRING",
+        "designerIsDraggable" : true,
+        "designerIsHorizontallyResizable" : true,
+        "designerIsWrappable" : true,
+        "designerMinWidth" : 1,
+        "designerRerenderParent" : false,
+        "displayName" : "i18n:pages.homePage.button--117304193.displayName",
+        "events" : {
+          "click" : "Button_button_117304193click"
+        }
+      },
+      "type" : "button"
+    } ],
+    "displayName" : "Page Top",
+    "id" : "abcs-page-top",
+    "properties" : {
+      "__silentProperties" : {
+        "translatableRoot" : "no-i18n-keys"
+      },
+      "designerIsDraggable" : true,
+      "designerIsDroppable" : true,
+      "designerIsHorizontallyResizable" : false,
+      "designerIsVerticallyResizable" : false,
+      "designerIsWrappable" : true,
+      "designerLayout" : [ [ {
+        "id" : "page-header-1206959175",
+        "type" : "page-header"
+      }, {
+        "id" : "page-header-1206959175",
+        "type" : "page-header"
+      }, {
+        "id" : "page-header-1206959175",
+        "type" : "page-header"
+      }, {
+        "id" : "page-header-1206959175",
+        "type" : "page-header"
+      }, {
+        "id" : "page-header-1206959175",
+        "type" : "page-header"
+      }, {
+        "id" : "page-header-1206959175",
+        "type" : "page-header"
+      }, {
+        "id" : "page-header-1206959175",
+        "type" : "page-header"
+      }, {
+        "id" : "page-header-1206959175",
+        "type" : "page-header"
+      }, {
+        "id" : "page-header-1206959175",
+        "type" : "page-header"
+      }, {
+        "id" : "page-header-1206959175",
+        "type" : "page-header"
+      }, {
+        "id" : "page-header-1206959175",
+        "type" : "page-header"
+      }, {
+        "id" : "page-header-1206959175",
+        "type" : "page-header"
+      } ], [ {
+        "id" : "button--91135449",
+        "type" : "button"
+      }, {
+        "id" : "button--91135449",
+        "type" : "button"
+      }, {
+        "id" : "button-1419014926",
+        "type" : "button"
+      }, {
+        "id" : "button-1419014926",
+        "type" : "button"
+      }, {
+        "id" : "button-1365100503",
+        "type" : "button"
+      }, {
+        "id" : "button-1365100503",
+        "type" : "button"
+      }, {
+        "id" : "button--1373815279",
+        "type" : "button"
+      }, {
+        "id" : "button--1373815279",
+        "type" : "button"
+      }, null, null, null, null ], [ {
+        "id" : "button--1007320878",
+        "type" : "button"
+      }, {
+        "id" : "button--1007320878",
+        "type" : "button"
+      }, {
+        "id" : "button-1424380981",
+        "type" : "button"
+      }, {
+        "id" : "button-1424380981",
+        "type" : "button"
+      }, {
+        "id" : "button--117304193",
+        "type" : "button"
+      }, {
+        "id" : "button--117304193",
+        "type" : "button"
+      }, null, null, null, null, null, null ] ]
+    },
+    "type" : "grid"
+  },
+  "viewModel" : {
+    "archetypes" : [ ],
+    "events" : [ {
+      "attributes" : {
+        "viewId" : "button--91135449"
+      },
+      "description" : [ "componentsDt.buttonClickEventDescription", "pages.homePage.button--91135449.displayName" ],
+      "displayName" : [ "componentsDt.buttonClickEventDisplayName", "pages.homePage.button--91135449.displayName" ],
+      "id" : "Button_button_91135449click",
+      "type" : "view"
+    }, {
+      "attributes" : {
+        "viewId" : "button-1419014926"
+      },
+      "description" : [ "componentsDt.buttonClickEventDescription", "pages.homePage.button-1419014926.displayName" ],
+      "displayName" : [ "componentsDt.buttonClickEventDisplayName", "pages.homePage.button-1419014926.displayName" ],
+      "id" : "Button_button_1419014926click",
+      "type" : "view"
+    }, {
+      "attributes" : {
+        "viewId" : "button-1365100503"
+      },
+      "description" : [ "componentsDt.buttonClickEventDescription", "pages.homePage.button-1365100503.displayName" ],
+      "displayName" : [ "componentsDt.buttonClickEventDisplayName", "pages.homePage.button-1365100503.displayName" ],
+      "id" : "Button_button_1365100503click",
+      "type" : "view"
+    }, {
+      "attributes" : {
+        "viewId" : "button--1373815279"
+      },
+      "description" : [ "componentsDt.buttonClickEventDescription", "pages.homePage.button--1373815279.displayName" ],
+      "displayName" : [ "componentsDt.buttonClickEventDisplayName", "pages.homePage.button--1373815279.displayName" ],
+      "id" : "Button_button_1373815279click",
+      "type" : "view"
+    }, {
+      "attributes" : {
+        "viewId" : "button--1007320878"
+      },
+      "description" : [ "componentsDt.buttonClickEventDescription", "pages.homePage.button--1007320878.displayName" ],
+      "displayName" : [ "componentsDt.buttonClickEventDisplayName", "pages.homePage.button--1007320878.displayName" ],
+      "id" : "Button_button_1007320878click",
+      "type" : "view"
+    }, {
+      "attributes" : {
+        "viewId" : "button-1424380981"
+      },
+      "description" : [ "componentsDt.buttonClickEventDescription", "pages.homePage.button-1424380981.displayName" ],
+      "displayName" : [ "componentsDt.buttonClickEventDisplayName", "pages.homePage.button-1424380981.displayName" ],
+      "id" : "Button_button_1424380981click",
+      "type" : "view"
+    }, {
+      "attributes" : {
+        "viewId" : "button--117304193"
+      },
+      "description" : [ "componentsDt.buttonClickEventDescription", "pages.homePage.button--117304193.displayName" ],
+      "displayName" : [ "componentsDt.buttonClickEventDisplayName", "pages.homePage.button--117304193.displayName" ],
+      "id" : "Button_button_117304193click",
+      "type" : "view"
+    } ],
+    "methods" : [ ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "viewModel" : {
+    "archetypes" : [ ],
+    "methods" : [ ]
+  },
+  "view" : {
+    "id" : "abcs-page-top",
+    "type" : "grid",
+    "displayName" : "Page Top",
+    "properties" : {
+      "designerIsDroppable" : true,
+      "designerIsWrappable" : true,
+      "designerIsVerticallyResizable" : false,
+      "designerIsHorizontallyResizable" : false,
+      "designerLayout" : [ ]
+    },
+    "children" : [ ]
+  }
+}

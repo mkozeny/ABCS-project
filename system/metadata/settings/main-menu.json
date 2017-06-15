@@ -1,0 +1,30 @@
+{
+  "binding" : { },
+  "displayName" : "main-menu",
+  "id" : "abcs-tpl-app-main-menu",
+  "properties" : {
+    "__silentProperties" : {
+      "translatableRoot" : "no-i18n-keys"
+    },
+    "designerIsDraggable" : true,
+    "designerIsHorizontallyResizable" : true,
+    "designerIsWrappable" : true,
+    "model" : {
+      "children" : [ {
+        "children" : [ ],
+        "id" : "menuItem_5259897431170458",
+        "item" : {
+          "data" : {
+            "pageId" : "homePage"
+          },
+          "icon" : "nav-icon-24-home",
+          "title" : "i18n:main-menu.homePage",
+          "type" : "page"
+        }
+      } ],
+      "id" : "ROOT",
+      "item" : null
+    }
+  },
+  "type" : "main-menu"
+}

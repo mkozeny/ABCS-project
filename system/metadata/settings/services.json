@@ -1,0 +1,24 @@
+{
+  "faServices" : { },
+  "customServices" : { },
+  "faVersions" : {
+    "CRM:crm" : {
+      "name" : "CRM Common API"
+    },
+    "CRM:sales" : {
+      "name" : "CRM Sales API"
+    },
+    "HCM:hcm" : {
+      "name" : "HCM Core API"
+    },
+    "HCM:hcm1" : {
+      "name" : "HCM Core Setup API"
+    },
+    "HCM:hcm2" : {
+      "name" : "HCM Work Force Mgmt API"
+    },
+    "SR:sr" : {
+      "name" : "Services API"
+    }
+  }
+}
